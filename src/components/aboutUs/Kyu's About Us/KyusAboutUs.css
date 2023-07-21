@@ -1,0 +1,25 @@
+.aboutCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px 150px;
+    /* width: 80%; */
+}
+.aboutCont div{
+    width: 20%;
+}
+.aboutCont div h3{
+    font-size: 14px;
+    margin: 0 0 5px;
+    color: #353C43;
+}
+.aboutCont div a{
+    font-size: 14px;
+    color: #6E6E77;
+    text-decoration:  none;
+    flex-direction: column;
+}
+.aboutCont div a:hover{
+    color: deeppink;
+}

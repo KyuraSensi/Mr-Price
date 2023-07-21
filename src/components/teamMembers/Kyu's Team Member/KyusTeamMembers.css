@@ -1,0 +1,35 @@
+#heading{
+    text-align: center;
+    color: #212529;
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+.ProductsCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.ProductsItem div{
+    padding: 9px 13px 0;
+}
+.ProductsItem{
+    width: 196.73px;
+    margin-top: 30px;
+}
+.ProductsItem img{
+    height: 295.09px;
+}
+.ProductsItem h3{
+    font-size: 15px;
+    color: #353c43;
+    font-weight: 500;
+}
+.ProductsItem p{
+    color: #9A9DA0;
+    font-size: 12px;
+}
+.ProductsItem b{
+    font-size: 16px;
+    color: #212529;
+}

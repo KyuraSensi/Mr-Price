@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+}
+.shopCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shopProduct{
+    /* border: 1px solid; */
+    width: 24.3vw;
+    height: 24.60vw;
+    margin-bottom: 8px;
+    margin-top: 3px;
+    position: relative;
+}
+.shopProduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopProduct a{
+    position: absolute;
+    z-index: 1;
+    bottom: 1.4vw;
+    text-decoration: none;
+    text-align: center;
+    color: #353c43;
+    font-size: 12px;
+    letter-spacing: 1.35px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    max-width: 320px;
+    width: auto;
+    min-width: 160px !important;
+    transition: border 0.15s ease;
+    border: 1px solid #F0F0F0 ;
+    border-radius: 4px;
+}
+.shopProduct button{
+    padding: 9px 10px;
+    max-width: 320px;
+    width: auto;
+    min-width: 160px !important;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1.35px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    max-width: 320px;
+}
+.shopProduct a:hover{
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #353c43;
+    font-size: 12px;
+    letter-spacing: 1.35px;
+    font-weight: 500;
+}
+.shopProduct a button:hover{
+    cursor: pointer;
+    background-color: #353c43;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1.35px;
+    font-weight: 500;
+}
+
+
+
+.extrasCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vw;
+    margin-bottom: 2vw;
+}
+.extrasCont img{
+    width: 201px;
+    height: 138px;
+    transition: .15s;
+    cursor: pointer;
+}
+.extrasCont img:hover{
+    background-color: #606d7a56;
+    border-radius: 4px;
+}

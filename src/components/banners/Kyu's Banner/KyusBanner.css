@@ -1,0 +1,22 @@
+.banner > * {
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    padding-top: 9vw;
+    position: relative;
+    height: 39.8vw;
+}
+.banner img{
+    width: 100%;
+}
+
+.img1{
+    height: 4.15vw;
+}
+.img2{
+    position: absolute;
+    left: 0;
+    top: 13vw;
+    height: 26.45vw;
+}

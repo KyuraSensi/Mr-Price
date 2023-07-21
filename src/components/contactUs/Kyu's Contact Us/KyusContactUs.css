@@ -1,0 +1,28 @@
+.contacCont{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #353c43;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 1.4% 8%;
+    height: 11vh;
+}
+.contacCont div{
+    display: flex;
+}
+.contacCont div input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid;
+    margin-right: 10px;
+    height: 30px;
+    width: 20px;
+}
+
+.contacCont input{
+    height: 100%;
+    width: 20vw;
+    padding-left: 10px;
+}

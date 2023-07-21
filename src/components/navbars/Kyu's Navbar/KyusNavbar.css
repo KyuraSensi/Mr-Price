@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 238, 255);
+}
+.nav{
+    min-height: 80px;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9fb;
+    min-height: 80px;
+    padding: 17px 24px;
+}
+
+.nav1 div{
+    display: flex;
+}
+
+.nav1 {
+    /* width: 1vw; */
+}
+
+.navInput{
+    border: 1px solid rgb(230, 230, 230);
+    width: 46.8vw;
+    margin-left: 7vw;
+}
+.navInput svg{
+    color: #a9a9a9;
+}
+.navInput input{
+    width: 34.8vw;
+    border: none;
+    /* border-right: 1px solid  rgb(230, 230, 230); */
+    /* border-left: 1px solid  rgb(230, 230, 230); */
+    font-size: 16px;
+    padding-left: 10px
+}
+.navInput input:focus{
+    border: none;
+    border-radius: 0;
+}
+.navSC p{
+    border-right: 1px solid  rgb(230, 230, 230);
+    padding: 5px 10px;
+    margin-right: 1px ;
+}
+.navInput button{
+    width: 11.8vw;
+    border: none;
+    color: #a9a9a9;
+    background-color: white;
+    font-size: 14px;
+    /* border-left: 1px solid  rgb(230, 230, 230); */
+}
+
+.navSC{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 16.7vw;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 6.35vw;
+}
+.navSC svg{
+    opacity: 50%;
+}
+.navLinks{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding-left: 1.5vw;
+}
+.navLinks a{
+    padding: 1.02vw;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    transition:color .1s all;
+}
+.navLinks a span{
+    color: rgb(215, 25, 32);
+}
+.navLinks a:hover{
+    border-bottom: 2px solid crimson;
+    color: rgb(215, 25, 32);
+}
+
+.search{
+    background-color: white;
+    border: none;
+    width: 4vw;
+    /* height: 1vw; */
+    color: red;
+    opacity: 50%;
+}
+.search:hover{
+    cursor: pointer;
+}
+.camera{
+    background-color: white;
+    border: none;
+    width: 4vw;
+    /* height: 1vw; */
+    color: red;
+    opacity: 50%;
+}
+.camera:hover{
+    cursor: pointer;
+}
